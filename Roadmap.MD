@@ -1,4 +1,4 @@
-# This roadmap is tentative and carries no guarentee that any of this will be done in a ny period of time specified.
+# This roadmap is tentative and carries no guarentee that any of this will be done in any period of time specified.
 
 ## CarBar
 ### Q1 2023: Release a public alpha version within this scope:
@@ -36,3 +36,13 @@ This quarter will mostly be R&D with issues, and feature requests. I don't want 
 * **Syncronised Lyrics Support** - I'd like to implement the same [synced lyrics provider](https://www.kugou.com/) [ViMusic](https://github.com/vfsfitvnm/ViMusic/) uses, as it seems to work pretty well. In addition I may also see how [InnerTune](https://github.com/z-huang/InnerTune) uses unsynced lyrics, and possibly implement a custom GitHub repo for users to source their own lyrics if they don't exist on these platforms.
 * **Currently Listening Service & Listening tracker** - The whole reason I want FOSS spotify support is because I like the social features of Spotify. Linking to other services to allow people to see what you're listening to on that service, and spotify wrapped are really cool concepts to me. I'd like to possibly implement these features on my own, with privacy in mind. For now I will allow Spotify to be what takes care of these services (obviously only if you log into your spotify.) but in the future I'd like to see if I can tackle these small oddities on my own.
 * **CarBar Integration** - If i have an app ecosystem, i might as well find ways to make them play nice together.
+
+## Everything after this point is only ideas. They are not projects that I have any true timeline or roadmap for. They are simply ideas I want to persue at **some point**
+
+### Profriend (E2E P2P FOSS Mental Health tool)
+#### Planned features:
+At this time this tool is only an idea with no planning of how it will work, or the logistics of making it. I only have ideas for the moment.
+* **Premise** - A social app to keep track of your friends current state of mental health, current pronouns, current mood, current triggers, and current fronting alter(s) (for those with OSDD and DID). It will feature user made "profriendfiles" in which the user can specify all of the above information, and assign it a name and color.
+* Android and iOS App
+* Push Notifications based on when user changes profiles.
+* j
