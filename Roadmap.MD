@@ -1,6 +1,6 @@
-This roadmap is tentative and carries no guarentee that any of this will be done in a ny period of time specified.
+# This roadmap is tentative and carries no guarentee that any of this will be done in a ny period of time specified.
 
-#CarBar
+## CarBar
 Q1 2023: Release a public alpha version within this scope:
 * **Material You** support, including light and dark themes.
 * **Bottom Bar Navigation**, featuring 4 custom app launcher buttons. Defaults being set as following:
@@ -22,7 +22,7 @@ Q3 2023+: These features are wanted, but definitely not planned to be implimente
 Don't expect anytime soon: Raspberry Pi <4 HeadUnit, a-la Android Auto Headunit.
 **This is outside my current expectations for my skills within the next year.** However, I'd still like to research it and see if I can make it work for fun. Basically, if possible I'd like to make companion software for the Raspberry Pi, and have it work as a 3rd party drop in replacement for Stock car stereos. This will complete the other side of features specific to android auto headunits. Being able to sync with the phone for information. This feature is currently **only an idea.** I don't know how difficult it will be to make a custom harness for a Pi to fit my car, and how difficult it will be to program features like in built steering wheel controls, or auto starting when the car is on, and turning off when the car turns off, and if I'd need to include a custom android build to get those features working or not. 
 
-#BPR (BladePlayerRevived)
+## BPR (BladePlayerRevived)
 
 Q2 2023: Get a basic app working from the code of the old Blade Player.
 * **Material You** - Basically redesign the entire app with Material You in mind. Taking inspiration from the Spotify App, YouTube Music App, and ViMusic. No definitive design is planned, as I will see how things feels when I get to it.
@@ -31,6 +31,8 @@ Q2 2023: Get a basic app working from the code of the old Blade Player.
 Q3 2023+: Feature overhaul- The features here have no planned timeframe, but will be implemented in this order of priority.
 * **Invidious support** - Add support to log into Invidious and import playlists. Invidious will also proxy the songs through Invidious. Instance support will feature a list of trusted instances will support to add your own.
 * **Piped support** - Same as Invidious, not sure if I'll implement both. We'll see how I feel when I get there lol.
+* **Music Caching** - Cache/download music for offline listening 
 * **NewPipe Extractor Support** - "Okay, now you're just being extra, why do you need 3 ways to get to YouTube? You haven't even included a way to get to YouTube Music." I know, but the NPE has support for SoundCloud and BandCamp. The extractor wil be used to grab these sources unless I become aware of a better solution that proxies these sources for privacy.
 * **Syncronised Lyrics Support** - I'd like to implement the same [synced lyrics provider](https://www.kugou.com/) [ViMusic](https://github.com/vfsfitvnm/ViMusic/) uses, as it seems to work pretty well. In addition I may also see how [InnerTune](https://github.com/z-huang/InnerTune) uses unsynced lyrics, and possibly implement a custom GitHub repo for users to source their own lyrics if they don't exist on these platforms.
-
+* **Currently Listening Service & Listening tracker** - The whole reason I want FOSS spotify support is because I like the social features of Spotify. Linking to other services to allow people to see what you're listening to on that service, and spotify wrapped are really cool concepts to me. I'd like to possibly implement these features on my own, with privacy in mind. For now I will allow Spotify to be what takes care of these services (obviously only if you log into your spotify.) but in the future I'd like to see if I can tackle these small oddities on my own.
+* **CarBar Integration** - If i have an app ecosystem, i might as well find ways to make them play nice together.
