@@ -45,4 +45,6 @@ At this time this tool is only an idea with no planning of how it will work, or 
 * **Premise** - A social app to keep track of your friends current state of mental health, current pronouns, current mood, current triggers, and current fronting alter(s) (for those with OSDD and DID). It will feature user made "profriendfiles" in which the user can specify all of the above information, and assign it a name and color.
 * Android and iOS App
 * Push Notifications based on when user changes profiles.
-* j
+
+### Gig Worker Mileage Tracker App
+#### Ideas: tracks GPS mileage whenever speeds over 25MPH are detected. Can save different trips to different profiles, and profiles can be made for personal use, uber, lyft, doordash, etc. Cars can also be assigned to each trip to track the mileage on each car.
