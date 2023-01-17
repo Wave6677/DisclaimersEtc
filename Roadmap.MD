@@ -24,3 +24,13 @@ Don't expect anytime soon: Raspberry Pi <4 HeadUnit, a-la Android Auto Headunit.
 
 #BPR (BladePlayerRevived)
 
+Q2 2023: Get a basic app working from the code of the old Blade Player.
+* **Material You** - Basically redesign the entire app with Material You in mind. Taking inspiration from the Spotify App, YouTube Music App, and ViMusic. No definitive design is planned, as I will see how things feels when I get to it.
+* **Fix Playback** - There's currently an issue with Blade Player that causes music playback to start ~.5 seconds after the track has actually started. It is very annoying and I want it fixed.
+
+Q3 2023+: Feature overhaul- The features here have no planned timeframe, but will be implemented in this order of priority.
+* **Invidious support** - Add support to log into Invidious and import playlists. Invidious will also proxy the songs through Invidious. Instance support will feature a list of trusted instances will support to add your own.
+* **Piped support** - Same as Invidious, not sure if I'll implement both. We'll see how I feel when I get there lol.
+* **NewPipe Extractor Support** - "Okay, now you're just being extra, why do you need 3 ways to get to YouTube? You haven't even included a way to get to YouTube Music." I know, but the NPE has support for SoundCloud and BandCamp. The extractor wil be used to grab these sources unless I become aware of a better solution that proxies these sources for privacy.
+* **Syncronised Lyrics Support** - I'd like to implement the same [synced lyrics provider](https://www.kugou.com/) [ViMusic](https://github.com/vfsfitvnm/ViMusic/) uses, as it seems to work pretty well. In addition I may also see how [InnerTune](https://github.com/z-huang/InnerTune) uses unsynced lyrics, and possibly implement a custom GitHub repo for users to source their own lyrics if they don't exist on these platforms.
+
